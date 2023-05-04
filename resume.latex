@@ -200,7 +200,7 @@
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: C/C++, GoLang, Python, Bash, Lua, Java, SQL, JavaScript, HTML/CSS} \\
+     \textbf{Languages}{: C/C++, Go, Python, Bash, Lua, Java, SQL, JavaScript, HTML/CSS} \\
      \textbf{Libraries/Frameworks}{: FastAPI, Django, OpenCV, GTK} \\
      \textbf{Developer Tools}{: Git, Vim} \\
     }}
@@ -213,14 +213,14 @@
 \section{Projects}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{\href{https://github.com/aditya-K2/gomp}{\underline{gomp}}} $|$ \emph{GoLang, Linux, TUI(Terminal UI), GitHub Actions}}{}
+          {\textbf{\href{https://github.com/aditya-K2/gspt}{\underline{gspt}}} $|$ \emph{Go, Linux, TUI(Terminal UI), GitHub Actions}}{}
           \resumeItemListStart
-            \resumeItem{Developed a Terminal front end for \href{https://www.musicpd.org/}{\underline{Music Player Daemon}} with built-in cover-art rendering capabilities.}
-            \resumeItem{Utilised Go Channels for parallel computation.}
-            \resumeItem{Implement Cover-art caching and an in-memory database for sorting songs on the basis of time played.}
-            \resumeItem{Integrated \href{https://www.last.fm/api}{\underline{Last-Fm API}} to download missing cover-art.}
-            \resumeItem{Set up GitHub Actions to auto-generate Documentation from code comments.}
-            \resumeItem{Packaged \href{https://github.com/aditya-K2/gomp}{\textbf{gomp}} in the \href{https://aur.archlinux.org/}{\underline{Arch User Repository}}.}
+            \resumeItem{Developed a Terminal Client for \href{https://www.spotify.com/}{\underline{Spotify}} with built-in cover-art rendering capabilities.}
+            \resumeItem{Received \textbf{173} Stars on Github}
+            \resumeItem{Utilised Go Channels for implemeting a simple notification system, and Fetching data from Spotify's Page based API.}
+            \resumeItem{Implement Cover-art caching}
+            \resumeItem{Set up GitHub Actions to auto-generate Documentation and create Automatic Releases based on git tags.}
+            \resumeItem{Packaged \href{https://github.com/aditya-K2/gspt}{\textbf{gspt}} in the \href{https://aur.archlinux.org/packages/gspt-git}{\underline{Arch User Repository}}.}
           \resumeItemListEnd
       \resumeProjectHeading
           {\textbf{\href{https://github.com/aditya-K2/scandoc}{\underline{scandoc}}} $|$ \emph{C++, OpenCV, GTK, Podofo, CMake}}{}
@@ -245,15 +245,12 @@
     \resumeSubHeadingListEnd
 
 %-------------------------------------------
-% TODO
-% Introduction to gomp
-% rephrase earned.
 \section{Achievements}
 
 \begin{itemize}
     \item Won the 3rd Prize in HackSprint V4.0, A Hackathon conducted by Association for Computing Machinery Student’s
 Chapter MMCOE, Pune.
-    \item Maintainer and Creator of \href{https://github.com/aditya-K2/gomp}{\textbf{gomp}} with 48 Stars on GitHub.
+    \item Maintainer and Creator of \href{https://github.com/aditya-K2/gspt}{\textbf{gspt}} \textit{(173 Stars)}, \href{https://github.com/aditya-K2/gomp}{\textbf{gomp}} \textit{(59 Stars)} on Github.
 \end{itemize}
 
 
