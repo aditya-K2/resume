@@ -3,6 +3,7 @@ name: Generate Resume
 on:
   push:
     branches: [ "master" ]
+    paths: [ "resume.latex" ]
   workflow_dispatch:
 
 jobs:
