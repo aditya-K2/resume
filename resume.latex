@@ -2,8 +2,6 @@
 % Resume in Latex
 % Author: Aditya Kurdunkar
 % Based off of: https://github.com/sb2nov/resume
-%
-% License: MIT
 %------------------------
 
 \documentclass[letterpaper,11pt]{article}

@@ -12,11 +12,15 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
-    - name: Set up texlive
-      run: sudo apt update && sudo apt install texlive-latex-extra texlive-font-utils texlive-fonts-extra texlive-fonts-recommended -y
-
     - name: Generate Resume
-      run: pdflatex -shell-escape resume.latex && mv resume.pdf Aditya_Kurdunkar_Resume.pdf
+      uses: dante-ev/latex-action@latest
+      with:
+        root_file: resume.latex
+        compiler: pdflatex
+        args: -interaction=nonstopmode -shell-escape
+
+    - name: Rename PDF
+      run: mv resume.pdf Aditya_Kurdunkar_Resume.pdf
 
     - name: Commit Resume
       uses: stefanzweifel/git-auto-commit-action@v4
