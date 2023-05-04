@@ -1,0 +1,23 @@
+name: Generate Resume
+
+on:
+  push:
+    branches: [ "master" ]
+  workflow_dispatch:
+
+jobs:
+  default_conf:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up texlive
+      run: sudo apt update && sudo apt install texlive-latex-extra texlive-font-utils texlive-fonts-extra texlive-fonts-recommended -y
+
+    - name: Generate Resume
+      run: pdflatex -shell-escape resume.latex && mv resume.pdf Aditya_Kurdunkar_Resume.pdf
+
+    - name: Commit Resume
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Generate Aditya_Kurdunkar_Resume.pdf
