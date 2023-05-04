@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  default_conf:
+  build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -21,3 +21,13 @@ jobs:
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: Generate Aditya_Kurdunkar_Resume.pdf
+
+    - name: Release PDF
+      uses: "marvinpinto/action-automatic-releases@latest"
+      with:
+        repo_token: "${{ secrets.GITHUB_TOKEN }}"
+        prerelease: false
+        automatic_release_tag: "latest"
+        title: "Resume: ${{ github.sha }}"
+        files: |
+          Aditya_Kurdunkar_Resume.pdf
