@@ -3,8 +3,12 @@ name: Generate Resume
 on:
   push:
     branches: [ "master" ]
-    paths: [ "resume.latex" ]
+    paths: [ "resume.tex" ]
   workflow_dispatch:
+
+concurrency:
+  group: "resume"
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -15,7 +19,7 @@ jobs:
     - name: Generate Resume
       uses: dante-ev/latex-action@latest
       with:
-        root_file: resume.latex
+        root_file: resume.tex
         compiler: pdflatex
         args: -interaction=nonstopmode -shell-escape
 
