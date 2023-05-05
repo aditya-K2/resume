@@ -22,11 +22,6 @@ jobs:
     - name: Rename PDF
       run: mv resume.pdf Aditya_Kurdunkar_Resume.pdf
 
-    - name: Commit Resume
-      uses: stefanzweifel/git-auto-commit-action@v4
-      with:
-        commit_message: Generate Aditya_Kurdunkar_Resume.pdf
-
     - name: Release PDF
       uses: "marvinpinto/action-automatic-releases@latest"
       with:
