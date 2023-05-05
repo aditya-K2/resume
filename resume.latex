@@ -215,7 +215,7 @@
           \resumeItemListStart
             \resumeItem{Developed a Terminal Client for \href{https://www.spotify.com/}{\underline{Spotify}} with built-in cover-art rendering capabilities.}
             \resumeItem{Received \textbf{173} Stars on Github}
-            \resumeItem{Utilised Go Channels for implemeting a simple notification system, and Fetching data from Spotify's Page based API.}
+            \resumeItem{Utilised Go Channels for a simple notification system, and Fetching data from Spotify's Page based API.}
             \resumeItem{Implement Cover-art caching}
             \resumeItem{Set up GitHub Actions to auto-generate Documentation and create Automatic Releases based on git tags.}
             \resumeItem{Packaged \href{https://github.com/aditya-K2/gspt}{\textbf{gspt}} in the \href{https://aur.archlinux.org/packages/gspt-git}{\underline{Arch User Repository}}.}
@@ -223,22 +223,23 @@
       \resumeProjectHeading
           {\textbf{\href{https://github.com/aditya-K2/scandoc}{\underline{scandoc}}} $|$ \emph{C++, OpenCV, GTK, Podofo, CMake}}{}
           \resumeItemListStart
-            \resumeItem{Developed a \textit{Document Scanner/PDF Generator} with GTK library for GUI.}
-            \resumeItem{Used OpenCV for Image Transformation and Image Capture from Web Camera.}
+            \resumeItem{Developed a \textit{Document Scanner + PDF Generator} with GTK library for GUI.}
+            \resumeItem{Used OpenCV for Image Transformation and other Image-processing related operations.}
+            \resumeItem{Used \href{https://gstreamer.freedesktop.org/}{\underline{Gstreamer}} Library for Capturing the input from Web-Cam.}
             \resumeItem{Used Podofo Library for PDF Generation.}
           \resumeItemListEnd
       \resumeProjectHeading
           {\textbf{\href{https://github.com/aditya-K2/twitterclone}{\underline{Twitter Clone}}} $|$ \emph{Python, Django, MySQL, REST, HTML, CSS, Javascript}}{}
           \resumeItemListStart
-            \resumeItem{Developed a Twitter Clone with Django-Templates for generating Dynamic Web page. }
+            \resumeItem{Developed a Twitter Clone with Django-Templates. }
             \resumeItem{Used MySQL as the Relational Database.}
             \resumeItem{Used Django-REST framework for creating REST APIs.}
           \resumeItemListEnd
       \resumeProjectHeading
-          {\textbf{\href{https://aditya-k2.github.io/utils.html}{\underline{Scripts and Utilities}}} $|$ \emph{Golang, Bash, GNU Core Utilities}}{}
+          {\textbf{\href{https://aditya-k2.github.io/utils.html}{\underline{Scripts and Utilities}}} $|$ \emph{Go, Bash, GNU Core Utilities}}{}
           \resumeItemListStart
             \resumeItem{\href{https://github.com/aditya-K2/brow}{\underline{\textbf{brow}}}: a small utility to query and access your browser history through the terminal.}
-            \resumeItem{\href{https://github.com/aditya-K2/dot/tree/master/suckless/suckless/scripts}{\underline{\textbf {Shell Scripts}}} I implemented to automate daily tasks.}
+            \resumeItem{\href{https://github.com/aditya-K2/dot/tree/master/scripts/scripts}{\underline{\textbf {Shell Scripts}}} I implemented to automate daily tasks.}
           \resumeItemListEnd
     \resumeSubHeadingListEnd
 
@@ -248,7 +249,7 @@
 \begin{itemize}
     \item Won the 3rd Prize in HackSprint V4.0, A Hackathon conducted by Association for Computing Machinery Student’s
 Chapter MMCOE, Pune.
-    \item Maintainer and Creator of \href{https://github.com/aditya-K2/gspt}{\textbf{gspt}} \textit{(173 Stars)}, \href{https://github.com/aditya-K2/gomp}{\textbf{gomp}} \textit{(59 Stars)} on Github.
+    \item Maintainer and Creator of \href{https://github.com/aditya-K2/gspt}{\underline{\textbf{gspt}}} \textit{(173 Stars)}, \href{https://github.com/aditya-K2/gomp}{\underline{\textbf{gomp}}} \textit{(59 Stars)} on Github.
 \end{itemize}
 
 
